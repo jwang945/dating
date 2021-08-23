@@ -5,7 +5,6 @@ class Body extends Component {
   render() {
     return (
       <React.Fragment>
-        <p>Placehoder</p>
         <MatchCandidate />
       </React.Fragment>
     );
