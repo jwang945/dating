@@ -7,7 +7,16 @@ class MatchCandidate extends Component {
     return (
       <React.Fragment>
         <VideoCandidate>
-          <video src={video} autoPlay={true} loop={true} controls={true} />
+          <video
+            src={video}
+            autoPlay={true}
+            loop={true}
+            controls={true}
+            controlsList="nodownload"
+            disablePictureInPicture={true}
+            height="700"
+            style={{ marginTop: 20 }}
+          />
         </VideoCandidate>
       </React.Fragment>
     );
