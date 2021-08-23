@@ -1,9 +1,16 @@
 import React, { Component } from "react";
 import VideoCandidate from "./videoCandidate";
+import video from "./../hairlessCat.mp4";
 class MatchCandidate extends Component {
   state = {};
   render() {
-    return <React.Fragment></React.Fragment>;
+    return (
+      <React.Fragment>
+        <VideoCandidate>
+          <video src={video} autoPlay={true} loop={true} />
+        </VideoCandidate>
+      </React.Fragment>
+    );
   }
 }
 
