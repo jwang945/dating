@@ -8,7 +8,7 @@ class TopNavBar extends Component {
         aria-label="Main navigation"
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/#">
             Offcanvas navbar
           </a>
           <button
@@ -26,17 +26,17 @@ class TopNavBar extends Component {
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="/#">
                   Dashboard
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/#">
                   Notifications
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/#">
                   Profile
                 </a>
               </li>
