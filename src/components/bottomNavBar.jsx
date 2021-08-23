@@ -3,7 +3,7 @@ class BottomNavBar extends Component {
   state = {};
   render() {
     return (
-      <div className="nav-scroller bg-body shadow-sm">
+      <div style={{ marginTop: 56 }} className="nav-scroller bg-body shadow-sm">
         <nav className="nav nav-underline" aria-label="Secondary navigation">
           <a className="nav-link active" aria-current="page" href="#">
             Dashboard
