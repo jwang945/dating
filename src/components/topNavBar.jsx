@@ -9,7 +9,7 @@ class TopNavBar extends Component {
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="/#">
-            Offcanvas navbar
+            DatingApp
           </a>
           <button
             className="navbar-toggler p-0 border-0"
