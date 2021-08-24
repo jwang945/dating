@@ -10,7 +10,7 @@ class MatchCard extends Component {
     };
     const matchIconStyle = {
       position: "absolute",
-      left: 0,
+      left: 10,
       top: 30
     };
     const matchTextStyle = {
