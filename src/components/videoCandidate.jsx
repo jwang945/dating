@@ -5,7 +5,7 @@ class VideoCandidate extends Component {
     const overlayNameStyle = {
       position: "absolute",
       top: "70%",
-      left: "39%",
+      left: "35%",
       zIndex: 1,
       fontSize: 25,
       color: "white"
@@ -13,7 +13,7 @@ class VideoCandidate extends Component {
     const overlayDescriptionStyle = {
       position: "absolute",
       top: "74%",
-      left: "39%",
+      left: "35%",
       zIndex: 1,
       fontSize: 16,
       color: "white",
@@ -24,10 +24,10 @@ class VideoCandidate extends Component {
     return (
       <React.Fragment>
         {this.props.children}
-        <div style={overlayNameStyle} class="overlayName">
+        <div style={overlayNameStyle} className="overlayName">
           <p>Nala Cat</p>
         </div>
-        <div style={overlayDescriptionStyle}>
+        <div style={overlayDescriptionStyle} className="overlayDescription">
           <p>
             I like to eat frogs 😍 and I somehow have hairballs and i only date
             badboys 9/10 only
