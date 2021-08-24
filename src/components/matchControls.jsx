@@ -1,12 +1,13 @@
 import React, { Component } from "react";
+import moreIcon from "./../icons/moreIcon.svg";
 import passIcon from "./../icons/passIcon.svg";
+import likeIcon from "./../icons/likeIcon.svg";
 class MatchControls extends Component {
   state = {};
   render() {
-    const passButtonStyle = {
-      position: "fixed",
-      top: "90%",
-      left: "50%"
+    const buttonStyle = {
+      height: 60,
+      width: 60
     };
     const flexContainerStyle = {
       display: "flex",
@@ -17,9 +18,15 @@ class MatchControls extends Component {
     return (
       <React.Fragment>
         <div style={flexContainerStyle}>
-          <button>More</button>
-          <button>Pass</button>
-          <button>Like</button>
+          <button style={buttonStyle}>
+            <img src={moreIcon} alt="More" />
+          </button>
+          <button style={buttonStyle}>
+            <img src={passIcon} alt="Pass" />
+          </button>
+          <button style={buttonStyle}>
+            <img src={likeIcon} alt="Like" />
+          </button>
         </div>
       </React.Fragment>
     );
