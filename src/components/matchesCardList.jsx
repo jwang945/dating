@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import MatchCard from "./matchCard";
-import bojanglePicture from "./../matchPictures/bojangleIcon.png";
+import bojangleIcon from "./../matchPictures/bojangleIcon.png";
+import pandaIcon from "./../matchPictures/pandaIcon.png";
 class MatchesCardList extends Component {
   state = {
     matches: [
@@ -8,13 +9,13 @@ class MatchesCardList extends Component {
         uuid: "001",
         name: "Bojangle",
         latestMessage: "Start up a conversation with this person",
-        icon: bojanglePicture
+        icon: bojangleIcon
       },
       {
         uuid: "002",
         name: "Panda Express",
         latestMessage: "hey sexy",
-        icon: bojanglePicture
+        icon: pandaIcon
       }
     ]
   };

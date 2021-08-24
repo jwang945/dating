@@ -10,14 +10,15 @@ class MatchCard extends Component {
       border: "solid #000"
     };
     const matchIconStyle = {
-      position: "absolute",
-      left: 10,
-      top: 30
+      paddingTop: 20,
+      paddingLeft: 30
     };
     const matchTextStyle = {
-      marginTop: 5,
-      marginLeft: 80,
-      textAlign: "left"
+      paddingTop: 5,
+      paddingLeft: 30,
+      textAlign: "left",
+      maxWidth: "100%",
+      maxHeight: "100%"
     };
     return (
       <div className="matchCard" style={matchCardStyle}>
