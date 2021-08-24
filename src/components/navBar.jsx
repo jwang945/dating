@@ -3,11 +3,14 @@ import TopNavBar from "./topNavBar";
 import BottomNavBar from "./bottomNavBar";
 class NavBar extends Component {
   state = {};
+  onMatchClick() {
+    console.log("matches have been clicked");
+  }
   render() {
     return (
       <React.Fragment>
         <TopNavBar />
-        <BottomNavBar />
+        <BottomNavBar onMatchClick={this.onMatchClick} />
       </React.Fragment>
     );
   }
