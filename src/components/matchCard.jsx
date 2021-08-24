@@ -6,7 +6,8 @@ class MatchCard extends Component {
       height: 100,
       width: "100%",
       overflow: "hidden",
-      background: "green"
+      display: "flex",
+      border: "solid #000"
     };
     const matchIconStyle = {
       position: "absolute",
@@ -14,10 +15,9 @@ class MatchCard extends Component {
       top: 30
     };
     const matchTextStyle = {
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "flex-start",
-      alignContent: "center"
+      marginTop: 5,
+      marginLeft: 80,
+      textAlign: "left"
     };
     return (
       <div className="matchCard" style={matchCardStyle}>
@@ -25,7 +25,9 @@ class MatchCard extends Component {
           <img src={this.props.icon} alt="Bojangle Icon" />
         </div>
         <div className="matchText" style={matchTextStyle}>
-          <div className="matchName">{this.props.name}</div>
+          <div className="matchName" style={{ fontSize: 22 }}>
+            {this.props.name}
+          </div>
           <div className="matchMessage">{this.props.latestMessage}</div>
         </div>
       </div>

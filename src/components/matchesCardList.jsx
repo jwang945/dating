@@ -9,6 +9,12 @@ class MatchesCardList extends Component {
         name: "Bojangle",
         latestMessage: "Start up a conversation with this person",
         icon: bojanglePicture
+      },
+      {
+        uuid: "002",
+        name: "Panda Express",
+        latestMessage: "hey sexy",
+        icon: bojanglePicture
       }
     ]
   };
