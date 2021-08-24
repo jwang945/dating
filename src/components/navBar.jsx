@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import TopNavBar from "./topNavBar";
 import BottomNavBar from "./bottomNavBar";
+import MatchesCardList from "./matchesCardList";
 class NavBar extends Component {
   state = {};
   onMatchClick() {
@@ -11,6 +12,7 @@ class NavBar extends Component {
       <React.Fragment>
         <TopNavBar />
         <BottomNavBar onMatchClick={this.onMatchClick} />
+        <MatchesCardList />
       </React.Fragment>
     );
   }
