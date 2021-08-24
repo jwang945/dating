@@ -4,6 +4,15 @@ import MatchControls from "./matchControls";
 import video from "./../hairlessCat.mp4";
 class MatchCandidate extends Component {
   state = {};
+  onMoreClick() {
+    console.log("more button clicked");
+  }
+  onPassClick() {
+    console.log("pass button clicked");
+  }
+  onLikeClick() {
+    console.log("like button clicked");
+  }
   render() {
     return (
       <React.Fragment>
@@ -19,7 +28,11 @@ class MatchCandidate extends Component {
             style={{ marginTop: 20 }}
           />
         </VideoCandidate>
-        <MatchControls />
+        <MatchControls
+          onMoreClick={this.onMoreClick}
+          onPassClick={this.onPassClick}
+          onLikeClick={this.onLikeClick}
+        />
       </React.Fragment>
     );
   }

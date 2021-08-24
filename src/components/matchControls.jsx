@@ -20,13 +20,13 @@ class MatchControls extends Component {
     return (
       <React.Fragment>
         <div style={flexContainerStyle}>
-          <button style={buttonStyle}>
+          <button style={buttonStyle} onClick={this.props.onMoreClick}>
             <img src={moreIcon} alt="More" />
           </button>
-          <button style={buttonStyle}>
+          <button style={buttonStyle} onClick={this.props.onPassClick}>
             <img src={passIcon} alt="Pass" />
           </button>
-          <button style={buttonStyle}>
+          <button style={buttonStyle} onClick={this.props.onLikeClick}>
             <img src={likeIcon} alt="Like" />
           </button>
         </div>
