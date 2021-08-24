@@ -5,7 +5,7 @@ class VideoCandidate extends Component {
     const overlayNameStyle = {
       position: "absolute",
       top: "70%",
-      left: "35%",
+      left: "39%",
       zIndex: 1,
       fontSize: 25,
       color: "white"
@@ -13,7 +13,7 @@ class VideoCandidate extends Component {
     const overlayDescriptionStyle = {
       position: "absolute",
       top: "74%",
-      left: "35%",
+      left: "39%",
       zIndex: 1,
       fontSize: 16,
       color: "white",
