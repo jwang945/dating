@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import VideoCandidate from "./videoCandidate";
+import MatchControls from "./matchControls";
 import video from "./../hairlessCat.mp4";
 class MatchCandidate extends Component {
   state = {};
@@ -18,6 +19,7 @@ class MatchCandidate extends Component {
             style={{ marginTop: 20 }}
           />
         </VideoCandidate>
+        <MatchControls />
       </React.Fragment>
     );
   }

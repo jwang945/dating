@@ -6,6 +6,8 @@ class MatchControls extends Component {
   state = {};
   render() {
     const buttonStyle = {
+      border: "none",
+      background: "none",
       height: 60,
       width: 60
     };
