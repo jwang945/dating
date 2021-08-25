@@ -3,7 +3,12 @@ import TopNavBar from "./topNavBar";
 import BottomNavBar from "./bottomNavBar";
 import MatchesCardList from "./matchesCardList";
 class NavBar extends Component {
-  state = {};
+  state = {
+    isMenuOpened: false
+  };
+  componentDidMount() {
+    console.log("mounted");
+  }
   onMatchClick() {
     console.log("matches have been clicked");
   }
