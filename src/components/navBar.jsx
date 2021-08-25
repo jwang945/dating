@@ -1,23 +1,13 @@
 import React, { Component } from "react";
 import TopNavBar from "./topNavBar";
 import BottomNavBar from "./bottomNavBar";
-import MatchesCardList from "./matchesCardList";
 class NavBar extends Component {
-  state = {
-    isMenuOpened: false
-  };
-  componentDidMount() {
-    console.log("mounted");
-  }
-  onMatchClick() {
-    console.log("matches have been clicked");
-  }
+  state = {};
   render() {
     return (
       <React.Fragment>
         <TopNavBar />
-        <BottomNavBar onMatchClick={this.onMatchClick} />
-        <MatchesCardList />
+        <BottomNavBar onMatchClick={this.props.onMatchClick} />
       </React.Fragment>
     );
   }

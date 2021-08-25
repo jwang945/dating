@@ -81,7 +81,7 @@ class MatchesCardList extends Component {
       display: "flex",
       flexDirection: "column",
       width: "30%",
-      height: "100%"
+      marginTop: 100
     };
     return (
       <React.Fragment>
