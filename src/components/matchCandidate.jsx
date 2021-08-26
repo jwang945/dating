@@ -25,7 +25,9 @@ class MatchCandidate extends Component {
             controlsList="nodownload"
             disablePictureInPicture={true}
             height="700"
-            style={{ marginTop: 20 }}
+            style={{
+              marginTop: 20
+            }}
           />
         </VideoCandidate>
         <MatchControls
