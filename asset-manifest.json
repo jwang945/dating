@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/dating/static/css/main.a617e044.chunk.css",
-    "main.js": "/dating/static/js/main.171502e0.chunk.js",
-    "main.js.map": "/dating/static/js/main.171502e0.chunk.js.map",
-    "runtime-main.js": "/dating/static/js/runtime-main.41e67673.js",
-    "runtime-main.js.map": "/dating/static/js/runtime-main.41e67673.js.map",
+    "main.js": "/dating/static/js/main.b4a488f7.chunk.js",
+    "main.js.map": "/dating/static/js/main.b4a488f7.chunk.js.map",
+    "runtime-main.js": "/dating/static/js/runtime-main.d35c8898.js",
+    "runtime-main.js.map": "/dating/static/js/runtime-main.d35c8898.js.map",
     "static/css/2.983f79de.chunk.css": "/dating/static/css/2.983f79de.chunk.css",
-    "static/js/2.777fff27.chunk.js": "/dating/static/js/2.777fff27.chunk.js",
-    "static/js/2.777fff27.chunk.js.map": "/dating/static/js/2.777fff27.chunk.js.map",
-    "static/js/3.4cef9100.chunk.js": "/dating/static/js/3.4cef9100.chunk.js",
-    "static/js/3.4cef9100.chunk.js.map": "/dating/static/js/3.4cef9100.chunk.js.map",
+    "static/js/2.62426b2b.chunk.js": "/dating/static/js/2.62426b2b.chunk.js",
+    "static/js/2.62426b2b.chunk.js.map": "/dating/static/js/2.62426b2b.chunk.js.map",
+    "static/js/3.80cb40ba.chunk.js": "/dating/static/js/3.80cb40ba.chunk.js",
+    "static/js/3.80cb40ba.chunk.js.map": "/dating/static/js/3.80cb40ba.chunk.js.map",
     "index.html": "/dating/index.html",
     "static/css/2.983f79de.chunk.css.map": "/dating/static/css/2.983f79de.chunk.css.map",
     "static/css/main.a617e044.chunk.css.map": "/dating/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.777fff27.chunk.js.LICENSE.txt": "/dating/static/js/2.777fff27.chunk.js.LICENSE.txt",
+    "static/js/2.62426b2b.chunk.js.LICENSE.txt": "/dating/static/js/2.62426b2b.chunk.js.LICENSE.txt",
     "static/media/hairlessCat.e43525b8.mp4": "/dating/static/media/hairlessCat.e43525b8.mp4",
     "static/media/likeIcon.120ab9c3.svg": "/dating/static/media/likeIcon.120ab9c3.svg",
     "static/media/moreIcon.a98e70f8.svg": "/dating/static/media/moreIcon.a98e70f8.svg",
     "static/media/passIcon.b5065303.svg": "/dating/static/media/passIcon.b5065303.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.41e67673.js",
+    "static/js/runtime-main.d35c8898.js",
     "static/css/2.983f79de.chunk.css",
-    "static/js/2.777fff27.chunk.js",
+    "static/js/2.62426b2b.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.171502e0.chunk.js"
+    "static/js/main.b4a488f7.chunk.js"
   ]
 }
