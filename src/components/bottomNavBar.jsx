@@ -3,7 +3,10 @@ class BottomNavBar extends Component {
   state = {};
   render() {
     return (
-      <div style={{ marginTop: 56 }} className="nav-scroller bg-body shadow-sm">
+      <div
+        style={{ marginTop: 56 }}
+        className="nav-scroller bg-body shadow-sm fixed-top"
+      >
         <nav className="nav nav-underline" aria-label="Secondary navigation">
           <button
             style={{ border: "none", background: "none" }}
@@ -14,12 +17,6 @@ class BottomNavBar extends Component {
               27
             </span>
           </button>
-          <a className="nav-link" href="/#">
-            Explore
-          </a>
-          <a className="nav-link" href="/#">
-            Suggestions
-          </a>
         </nav>
       </div>
     );

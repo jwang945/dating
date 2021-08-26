@@ -4,8 +4,8 @@ class VideoCandidate extends Component {
   render() {
     const overlayNameStyle = {
       position: "absolute",
-      top: 625,
-      left: 670,
+      top: 550,
+      left: 10,
       zIndex: 1,
       fontSize: 25,
       color: "white",
@@ -13,8 +13,8 @@ class VideoCandidate extends Component {
     };
     const overlayDescriptionStyle = {
       position: "absolute",
-      top: 660,
-      left: 670,
+      top: 585,
+      left: 10,
       zIndex: 1,
       fontSize: 16,
       color: "white",
@@ -23,9 +23,7 @@ class VideoCandidate extends Component {
       textAlign: "left"
     };
     const videoContainerStyle = {
-      // background: "green",
-      width: "40%",
-      margin: "auto"
+      position: "relative"
     };
     return (
       <React.Fragment>

@@ -16,25 +16,24 @@ class MatchCandidate extends Component {
   render() {
     return (
       <React.Fragment>
-        <VideoCandidate>
-          <video
-            src={video}
-            autoPlay={true}
-            loop={true}
-            controls={true}
-            controlsList="nodownload"
-            disablePictureInPicture={true}
-            height="700"
-            style={{
-              marginTop: 20
-            }}
+        <div style={{ background: "green" }}>
+          <VideoCandidate>
+            <video
+              src={video}
+              autoPlay={true}
+              loop={true}
+              controls={true}
+              controlsList="nodownload"
+              disablePictureInPicture={true}
+              height="700"
+            />
+          </VideoCandidate>
+          <MatchControls
+            onMoreClick={this.onMoreClick}
+            onPassClick={this.onPassClick}
+            onLikeClick={this.onLikeClick}
           />
-        </VideoCandidate>
-        <MatchControls
-          onMoreClick={this.onMoreClick}
-          onPassClick={this.onPassClick}
-          onLikeClick={this.onLikeClick}
-        />
+        </div>
       </React.Fragment>
     );
   }
