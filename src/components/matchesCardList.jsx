@@ -77,11 +77,10 @@ class MatchesCardList extends Component {
   };
   render() {
     const matchesCardListContainerStyle = {
-      position: "absolute",
       display: "flex",
       flexDirection: "column",
-      width: "30%",
-      marginTop: 100
+      width: 450,
+      background: "green"
     };
     return (
       <React.Fragment>

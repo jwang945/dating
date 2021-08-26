@@ -6,18 +6,14 @@ class Body extends Component {
   render() {
     const bodyStyle = {
       marginTop: 80,
-      display: "flex",
-      justifyContent: "center",
-      background: "red"
+      display: "flex"
     };
 
     return (
       <React.Fragment>
         <div className="body" style={bodyStyle}>
-          {/* <MatchesCardList /> */}
-          <main>
-            <MatchCandidate />
-          </main>
+          <MatchesCardList />
+          <MatchCandidate />
         </div>
       </React.Fragment>
     );

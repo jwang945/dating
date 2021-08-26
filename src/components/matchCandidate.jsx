@@ -16,7 +16,7 @@ class MatchCandidate extends Component {
   render() {
     return (
       <React.Fragment>
-        <div style={{ background: "green" }}>
+        <main style={{ marginLeft: 80 }}>
           <VideoCandidate>
             <video
               src={video}
@@ -33,7 +33,7 @@ class MatchCandidate extends Component {
             onPassClick={this.onPassClick}
             onLikeClick={this.onLikeClick}
           />
-        </div>
+        </main>
       </React.Fragment>
     );
   }
