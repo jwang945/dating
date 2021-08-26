@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/dating/static/css/main.a617e044.chunk.css",
-    "main.js": "/dating/static/js/main.ea2c42cd.chunk.js",
-    "main.js.map": "/dating/static/js/main.ea2c42cd.chunk.js.map",
-    "runtime-main.js": "/dating/static/js/runtime-main.fc18332a.js",
-    "runtime-main.js.map": "/dating/static/js/runtime-main.fc18332a.js.map",
-    "static/css/2.c0e8d3f0.chunk.css": "/dating/static/css/2.c0e8d3f0.chunk.css",
-    "static/js/2.cefb81f6.chunk.js": "/dating/static/js/2.cefb81f6.chunk.js",
-    "static/js/2.cefb81f6.chunk.js.map": "/dating/static/js/2.cefb81f6.chunk.js.map",
-    "static/js/3.397a00da.chunk.js": "/dating/static/js/3.397a00da.chunk.js",
-    "static/js/3.397a00da.chunk.js.map": "/dating/static/js/3.397a00da.chunk.js.map",
+    "main.js": "/dating/static/js/main.0bbf70b3.chunk.js",
+    "main.js.map": "/dating/static/js/main.0bbf70b3.chunk.js.map",
+    "runtime-main.js": "/dating/static/js/runtime-main.41e67673.js",
+    "runtime-main.js.map": "/dating/static/js/runtime-main.41e67673.js.map",
+    "static/css/2.983f79de.chunk.css": "/dating/static/css/2.983f79de.chunk.css",
+    "static/js/2.777fff27.chunk.js": "/dating/static/js/2.777fff27.chunk.js",
+    "static/js/2.777fff27.chunk.js.map": "/dating/static/js/2.777fff27.chunk.js.map",
+    "static/js/3.4cef9100.chunk.js": "/dating/static/js/3.4cef9100.chunk.js",
+    "static/js/3.4cef9100.chunk.js.map": "/dating/static/js/3.4cef9100.chunk.js.map",
     "index.html": "/dating/index.html",
-    "static/css/2.c0e8d3f0.chunk.css.map": "/dating/static/css/2.c0e8d3f0.chunk.css.map",
+    "static/css/2.983f79de.chunk.css.map": "/dating/static/css/2.983f79de.chunk.css.map",
     "static/css/main.a617e044.chunk.css.map": "/dating/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.cefb81f6.chunk.js.LICENSE.txt": "/dating/static/js/2.cefb81f6.chunk.js.LICENSE.txt",
+    "static/js/2.777fff27.chunk.js.LICENSE.txt": "/dating/static/js/2.777fff27.chunk.js.LICENSE.txt",
     "static/media/hairlessCat.e43525b8.mp4": "/dating/static/media/hairlessCat.e43525b8.mp4",
     "static/media/likeIcon.120ab9c3.svg": "/dating/static/media/likeIcon.120ab9c3.svg",
     "static/media/moreIcon.a98e70f8.svg": "/dating/static/media/moreIcon.a98e70f8.svg",
     "static/media/passIcon.b5065303.svg": "/dating/static/media/passIcon.b5065303.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fc18332a.js",
-    "static/css/2.c0e8d3f0.chunk.css",
-    "static/js/2.cefb81f6.chunk.js",
+    "static/js/runtime-main.41e67673.js",
+    "static/css/2.983f79de.chunk.css",
+    "static/js/2.777fff27.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.ea2c42cd.chunk.js"
+    "static/js/main.0bbf70b3.chunk.js"
   ]
 }
