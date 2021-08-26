@@ -23,7 +23,8 @@ class VideoCandidate extends Component {
       textAlign: "left"
     };
     const videoContainerStyle = {
-      position: "relative"
+      position: "relative",
+      marginBottom: -20
     };
     return (
       <React.Fragment>
