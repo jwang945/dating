@@ -22,7 +22,7 @@ class MatchesCardList extends Component {
       {
         uuid: "002",
         name: "Panda Express",
-        latestMessage: "hey sexy",
+        latestMessage: "example last message",
         icon: pandaIcon
       },
       {
